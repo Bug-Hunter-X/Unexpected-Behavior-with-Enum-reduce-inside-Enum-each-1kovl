@@ -1,0 +1,1 @@
+This example demonstrates a common issue in Elixir when using `Enum.reduce` inside an `Enum.each` loop.  `Enum.each` is designed for side effects and doesn't return a value, which can cause problems if you try to use its result within the loop. The solution shows how to restructure the code to use `Enum.map` or `Enum.reduce` effectively.
